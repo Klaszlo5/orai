@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Közlekedési szokások felmérése</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        form {
+            background-color: white;
+            padding: 20px 40px;
+
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+            display: block;
+            margin-top: 10px;
+        }
+        select, input[type="radio"], input[type="range"] {
+            margin-top: 5px;
+        }
+        .pontozas {
+            margin-top: 5px;
+        }
+        .pontoztatas {
+            display: flex;
+            justify-content: space-between;
+			float:left;
+        }
+        button {
+            float: right;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+			
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form id="surveyForm">
+        <h1>Munkába járási szokások</h1>
+
+        <label for="gender">Nem:</label>
+        <select id="gender" name="gender" required>
+            <option value="ferfi">Férfi</option>
+            <option value="no">Nő</option>
+            <option value="egyeb">Egyéb</option>
+        </select>
+
+        <label for="ageGroup">Életkor:</label>
+        <select id="ageGroup" name="ageGroup" required>
+            <option value="21-30">21-30 év</option>
+            <option value="31-40">31-40 év</option>
+            <option value="41-50">41-50 év</option>
+            <option value="51-65">51-65 év</option>
+        </select>
+
+        <label for="transport">Mivel jársz munkahelyedre?</label>
+        <select id="transport" name="transport" required>
+            <option value="sajat">Saját személygépkocsi</option>
+            <option value="tomegkozlekedes">Tömegközlekedés</option>
+            <option value="bicikli">Bicikli</option>
+            <option value="elektromos-roller">Elektromos roller</option>
+            <option value="gyalog">Gyalog</option>
+            <option value="egyeb">Egyéb</option>
+        </select>
+
+        <label for="pontozas">Mi a véleményed a budapesti közlekedési viszonyokról?</label>
+     
+      
+		   <div class="pontoztatas">
+	
+            <span>1 - Nagyon rossz, 10 - Nagyon jó </span>
+        </div><br>
+		 <input type="range" id="pontozas" name="pontozas" min="1" max="10" step="1" value="5" required>
+        <button type="submit">Küldés</button>
+    </form>
+
+    <script>
+        document.getElementById('surveyForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const gender = document.getElementById('gender').value;
+            const ageGroup = document.getElementById('ageGroup').value;
+            const transport = document.getElementById('transport').value;
+            const pontozas = document.getElementById('pontozas').value;
+
+            const surveyResults = {
+                gender: gender,
+                ageGroup: ageGroup,
+                transport: transport,
+                pontozas: pontozas
+            };
+
+            console.log('Közlekedési felmérés eredményei:', surveyResults);
+        });
+    </script>
+</body>
+</html>
