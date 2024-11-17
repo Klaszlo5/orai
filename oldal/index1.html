@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Válasz Játék</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+
+        }
+        .game-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+        }
+        .question {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .answer-input {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            width: 80%;
+            border: 1px solid;
+        }
+        .submit-button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .helyes {
+            color: green;
+        }
+        .helytelen {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="question" id="question"></div>
+        <input type="number" id="answer" class="answer-input" placeholder="Írd ide a válaszod">
+        <button class="submit-button" id="valasz">Válaszolok</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        const questions = [
+            { question: 'Mi a 2 + 2?', answer: 4 },
+            { question: 'Mi a 3 + 5?', answer: 8 },
+            { question: 'Mi a 10 - 4?', answer: 6 },
+            { question: 'Mi a 5 * 3?', answer: 15 },
+            { question: 'Mi a 9 / 3?', answer: 3 }
+        ];
+        let currentQuestionIndex = 0; 
+		
+        const questionElement = document.getElementById('question');
+        const resultElement = document.getElementById('result');
+        const answerInput = document.getElementById('answer');
+        const submitButton = document.getElementById('valasz');
+
+        function Jatek() {
+            const tomb = questions[currentQuestionIndex];
+            questionElement.textContent = tomb.question;
+            answerInput.value = '';
+            resultElement.textContent = '';
+        }
+
+        submitButton.addEventListener('click', () => {
+            const tomb = questions[currentQuestionIndex];
+            const Valasz = parseInt(answerInput.value);
+
+            if (isNaN(Valasz)) {
+                alert('Kérlek, adj meg egy számot!');
+                return;
+            }
+
+            setTimeout(() => {
+                if (Valasz === tomb.answer) {
+                    resultElement.textContent = 'Helyes válasz!';
+                    resultElement.classList.remove('helytelen');
+                    resultElement.classList.add('helyes');
+                } else {
+                    if (Valasz < tomb.answer) {
+                        alert('Helytelen válasz! A válasz túl alacsony!');
+                    } else if (Valasz > tomb.answer) {
+                        alert('Helytelen válasz! A válasz túl magas!');
+                    }
+
+                    resultElement.textContent = 'Helytelen válasz!';
+                    resultElement.classList.remove('helyes');
+                    resultElement.classList.add('helytelen');
+                }
+
+                currentQuestionIndex = (currentQuestionIndex + 1) % questions.length;
+                Jatek();
+            }, 2000);
+        });
+ 
+        Jatek();
+    </script>
+</body>
+</html>
