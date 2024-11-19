@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Játék</title>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Kérdés-válasz űrlap</h1>
+        <form id="questionForm">
+            <label for="question">Kérdés:</label>
+            <input type="text" id="question"><br>
+            <label for="correctAnswer">Helyes válasz:</label>
+            <input type="text" id="correctAnswer"> <br>
+            <label for="options">Válasz opciók (veszővel elválasztva): </label>
+            <input type="text" id="options"><br>
+            <button type="button" id="saveButton" onclick="addQuestion();">Mentés</button>
+        </form>
+    </main>
+    <section>
+        <button type="button" id="showQuestion" onclick="randomQuestion();">Mutasd a kérdést!</button>
+    </section>
+</body>
+</html>
