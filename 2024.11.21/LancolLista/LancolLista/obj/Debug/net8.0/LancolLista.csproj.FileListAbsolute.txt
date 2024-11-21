@@ -1,0 +1,14 @@
+C:\Users\Stream\source\repos\LancolLista\LancolLista\bin\Debug\net8.0\LancolLista.exe
+C:\Users\Stream\source\repos\LancolLista\LancolLista\bin\Debug\net8.0\LancolLista.deps.json
+C:\Users\Stream\source\repos\LancolLista\LancolLista\bin\Debug\net8.0\LancolLista.runtimeconfig.json
+C:\Users\Stream\source\repos\LancolLista\LancolLista\bin\Debug\net8.0\LancolLista.dll
+C:\Users\Stream\source\repos\LancolLista\LancolLista\bin\Debug\net8.0\LancolLista.pdb
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.AssemblyInfoInputs.cache
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.AssemblyInfo.cs
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.csproj.CoreCompileInputs.cache
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.dll
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\refint\LancolLista.dll
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.pdb
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\LancolLista.genruntimeconfig.cache
+C:\Users\Stream\source\repos\LancolLista\LancolLista\obj\Debug\net8.0\ref\LancolLista.dll

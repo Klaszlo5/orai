@@ -1,0 +1,14 @@
+C:\Users\Stream\source\repos\Korhatar\Korhatar\bin\Debug\net8.0\Korhatar.exe
+C:\Users\Stream\source\repos\Korhatar\Korhatar\bin\Debug\net8.0\Korhatar.deps.json
+C:\Users\Stream\source\repos\Korhatar\Korhatar\bin\Debug\net8.0\Korhatar.runtimeconfig.json
+C:\Users\Stream\source\repos\Korhatar\Korhatar\bin\Debug\net8.0\Korhatar.dll
+C:\Users\Stream\source\repos\Korhatar\Korhatar\bin\Debug\net8.0\Korhatar.pdb
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.AssemblyInfoInputs.cache
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.AssemblyInfo.cs
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.csproj.CoreCompileInputs.cache
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.dll
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\refint\Korhatar.dll
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.pdb
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\Korhatar.genruntimeconfig.cache
+C:\Users\Stream\source\repos\Korhatar\Korhatar\obj\Debug\net8.0\ref\Korhatar.dll
