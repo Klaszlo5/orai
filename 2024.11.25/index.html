@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minta Star</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .bio, .interesting-facts {
+            margin-bottom: 20px;
+        }
+
+        article {
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f1f1;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: red; /* Vörös háttérszín mobil nézetben */
+                color: #333; /* Sötétebb szöveg */
+                font-size: 14px; /* Betűméret 14px */
+                text-align: justify; /* Sorkizárt tartalom */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minta Star - Az univerzum kedvence</h1>
+    </header>
+    
+    <main>
+        <section class="bio">
+            <h2>Rövid életrajz</h2>
+            <article>
+                <p>Minta Star egy tehetséges művész, aki 20XX-ben látta meg a napvilágot. 
+                Felnőttként hamar felfedezték tehetségét a zenében és a színészetben. 
+                Azóta számos díjat nyert és világszerte ismertté vált.</p>
+            </article>
+        </section>
+        
+        <section class="interesting-facts">
+            <h2>Érdekes adatok</h2>
+            <ul>
+                <li>Minta Star 5 különböző nyelven beszél.</li>
+                <li>Első albuma 2010-ben jelent meg.</li>
+                <li>Több mint 100 millió lemezt adott el világszerte.</li>
+                <li>Szabadidejében jótékonysági eseményeken vesz részt.</li>
+                <li>Szereti a természetet és a kirándulásokat.</li>
+            </ul>
+        </section>
+        
+        <button id="interactive-button">Kattints rám!</button>
+        <p id="button-message"></p>
+    </main>
+    
+    <footer>
+        <p>Köszönjük, hogy ellátogattál Minta Star világába!</p>
+    </footer>
+    
+    <script>
+        const button = document.getElementById("interactive-button");
+        const message = document.getElementById("button-message");
+        
+        button.addEventListener("click", () => {
+            message.textContent = "Köszönjük, hogy érdeklődsz Minta Star iránt!";
+        });
+    </script>
+</body>
+</html>
