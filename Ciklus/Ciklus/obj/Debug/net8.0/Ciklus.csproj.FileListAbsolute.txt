@@ -1,0 +1,14 @@
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\bin\Debug\net8.0\Ciklus.exe
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\bin\Debug\net8.0\Ciklus.deps.json
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\bin\Debug\net8.0\Ciklus.runtimeconfig.json
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\bin\Debug\net8.0\Ciklus.dll
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\bin\Debug\net8.0\Ciklus.pdb
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.AssemblyInfoInputs.cache
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.AssemblyInfo.cs
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.csproj.CoreCompileInputs.cache
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.dll
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\refint\Ciklus.dll
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.pdb
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\Ciklus.genruntimeconfig.cache
+C:\Users\Stream\source\repos\2024_10_03\Ciklus\Ciklus\obj\Debug\net8.0\ref\Ciklus.dll
