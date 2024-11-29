@@ -1,0 +1,14 @@
+C:\Users\Stream\source\repos\Tetelek\Tetelek\bin\Debug\net8.0\Tetelek.exe
+C:\Users\Stream\source\repos\Tetelek\Tetelek\bin\Debug\net8.0\Tetelek.deps.json
+C:\Users\Stream\source\repos\Tetelek\Tetelek\bin\Debug\net8.0\Tetelek.runtimeconfig.json
+C:\Users\Stream\source\repos\Tetelek\Tetelek\bin\Debug\net8.0\Tetelek.dll
+C:\Users\Stream\source\repos\Tetelek\Tetelek\bin\Debug\net8.0\Tetelek.pdb
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.AssemblyInfoInputs.cache
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.AssemblyInfo.cs
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.csproj.CoreCompileInputs.cache
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.dll
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\refint\Tetelek.dll
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.pdb
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\Tetelek.genruntimeconfig.cache
+C:\Users\Stream\source\repos\Tetelek\Tetelek\obj\Debug\net8.0\ref\Tetelek.dll
