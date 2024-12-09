@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Bevásárlólista</title>
+</head>
+<body>
+    <header class="container">
+        <h1 class="display-1 text-center">Bevásárlólista</h1>
+    </header>
+    <main class="container w-25">
+        <section class="row">
+            <h2>Lista müveletek</h2>
+            <form>
+                <div class="input-group">
+                    <label for="item" class="input-group-text">Termék</label>
+                    <input type="text" id="item" class="form-control">
+                </div>
+                <div class="btn-group mt-2">
+                    <input type="button" value="Felvétel" id="submit" class="btn btn-primary">
+                    <input type="button" id="show" class="btn btn-secondary">
+                </div>
+            </form>
+        </section>
+        <section class="row">
+            <h2>A bevásárlólista tartalma</h2>
+            <p></p>
+            <div class="mt-2" id="listContainer"></div>
+        </section>
+    </main>
+</body>
+</html>
