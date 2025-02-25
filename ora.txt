@@ -1,0 +1,42 @@
+A szoftvertesztelés egy rendkívül fontos folyamat a szoftverfejlesztés során, amely biztosítja, hogy a szoftver megfelel a specifikációknak és az elvárásoknak, valamint hogy a lehető legkevesebb hiba legyen a lehető legkorábbi fázisokban felfedezve. Az alábbiakban összefoglalom a tesztelés alapelveit, technikáit és lépéseit.
+A tesztelés alapelvei
+
+    A tesztelés a hibák jelenlétet jelzi: Mivel a tesztelés célja a hibák azonosítása és minimalizálása, ezért a teszteléssel csak kimutathatjuk, hogy hibák léteznek a rendszerben.
+
+    Nem lehetséges kimerítő tesztet írni: Nincsenek olyan tesztek, amelyek minden lehetséges bemenetet és állapotot lefednének, így a tesztelés mindig korlátozott lesz.
+
+    Korai teszt: A lehető legkorábban kell megkezdeni a tesztelést a fejlesztési folyamat során, mivel a korai felismerés segíthet csökkenteni a fejlesztési költségeket.
+
+    Hibák csoportosulása: A hibák gyakran nem véletlenszerűen fordulnak elő, hanem halmazokban jelentkeznek, így célszerű a tesztelési folyamatot úgy tervezni, hogy a legvalószínűbb hibás helyeket célozzuk meg.
+
+    A tesztelés függ a körülményektől: A tesztelési stratégia és a tesztelési módszerek változhatnak a projekt igényei, határidők és a rendelkezésre álló erőforrások függvényében.
+
+    A hibatlan rendszer téveszméje: Valódi szoftverekben nem létezik hibatlan rendszer. A tesztelés célja a hibák minimalizálása, nem pedig a hibák teljes eltüntetése.
+
+Tesztelési technikák
+
+    Feketedobozos (black-box): A feketedobozos tesztelés során a tesztelő nem ismeri a belső működést, csak a bemenetek és kimenetek viszonyát vizsgálja.
+
+    Fehérdobozos (white-box): A fehérdobozos tesztelés esetén a tesztelő ismeri a rendszer belső logikáját, és ezt használja a tesztesetek kialakításához. A következő szintű tesztelést tartalmazza:
+        Kódsorok: A konkrét kódvonalak tesztelése.
+        Elágazások: Az if-else struktúrák tesztelése.
+        Metódusok: Egyes metódusok tesztelése.
+        Osztályok: Az osztályok viselkedésének tesztelése.
+        Funkciók: A különböző funkciók, algoritmusok tesztelése.
+        Modulok: A nagyobb részegységek, modulok tesztelése.
+
+Tesztelési tevékenységek
+
+    Tesztterv elkészítése: Meghatározzuk a tesztelési célokat, stratégiát és időkeretet.
+
+    Tesztesetek tervezése: Konkrét teszteseteket írunk, amelyek a szoftver funkcióit ellenőrzik.
+
+    Fel készülés a végrehajtásra: Az előkészületek során biztosítjuk, hogy minden szükséges erőforrás és dokumentáció rendelkezésre álljon.
+
+    Tesztek végrehajtása: A tesztesetek futtatása, a hibák és anomáliák észlelése.
+
+    Kilepési feltételek vizsgálata: Megnézzük, hogy a rendszer megfelel-e a kívánt minőségi követelményeknek a kiadás előtt.
+
+    Eredmények értékelése: Az elvégzett tesztek eredményeinek elemzése és kiértékelése.
+
+    Jelentés készítése: A tesztelés során gyűjtött adatok és tapasztalatok összefoglalása, problémajegyzék készítése és javaslatok megfogalmazása a jövőbeli fejlesztésekhez.
