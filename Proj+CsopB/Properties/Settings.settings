@@ -1,0 +1,6 @@
+SettingName        Type                Scope       Value  
+---------------------------------------------------------  
+FuelPrice         String              User        "0"  
+Distance          String              User        "0"  
+Consumption       String              User        "0"  
+HasToll           Boolean             User        false  

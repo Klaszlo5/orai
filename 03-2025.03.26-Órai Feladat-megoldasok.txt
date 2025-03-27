@@ -1,0 +1,27 @@
+MEGOLDÁSOK
+
+1.
+SELECT name   
+FROM employees   
+WHERE salary > (SELECT AVG(salary) FROM employees);
+
+2.
+SELECT name   
+FROM employees   
+WHERE department_id = (SELECT id FROM departments WHERE name = 'Marketing'); 
+
+3.
+SELECT name   
+FROM products   
+WHERE price > ALL (SELECT price FROM products WHERE category_id = (SELECT id FROM categories WHERE name = 'Élelmiszer'));  
+
+4.
+SELECT DISTINCT c.name   
+FROM customers c   
+WHERE EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id); 
+
+5.
+SELECT d.name   
+FROM departments d   
+JOIN employees e ON d.id = e.department_id   
+WHERE e.salary = (SELECT MAX(salary) FROM employees);  

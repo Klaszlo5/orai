@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<root>  
+  <data name="WelcomeText" xml:space="preserve">  
+    <value>Welcome to the Car Cost Calculator!</value>  
+  </data>  
+  <data name="DistanceLabel" xml:space="preserve">  
+    <value>Distance (km):</value>  
+  </data>  
+  <data name="ConsumptionLabel" xml:space="preserve">  
+    <value>Average Consumption (l/100 km):</value>  
+  </data>  
+  <data name="FuelPriceLabel" xml:space="preserve">  
+    <value>Fuel Price (Ft/l):</value>  
+  </data>  
+  <data name="TollLabel" xml:space="preserve">  
+    <value>Include Toll:</value>  
+  </data>  
+  <data name="CalculateButton" xml:space="preserve">  
+    <value>Calculate</value>  
+  </data>  
+  <data name="ResultLabel" xml:space="preserve">  
+    <value>Total Cost: {0:F2} Ft</value>  
+  </data>  
+  <data name="ErrorInput" xml:space="preserve">  
+    <value>Please enter valid numbers!</value>  
+  </data>  
+  <data name="ErrorTitle" xml:space="preserve">  
+    <value>Error</value>  
+  </data>  
+  <data name="WarningInput" xml:space="preserve">  
+    <value>Please enter a valid number!</value>  
+  </data>  
+</root>  
